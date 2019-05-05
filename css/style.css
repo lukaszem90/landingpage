@@ -15,7 +15,7 @@ header{
     top:0;
     left:0;
     overflow-x:hidden;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     z-index: 1;
 }
 
@@ -49,8 +49,10 @@ header hgroup{
 }
 header h1{
     font-size: 2.5rem;
+    text-align: center;
 }
 header h3{
+    color: gray;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -80,6 +82,9 @@ header h3{
     animation: arrow 1.5s infinite linear;
 }
 
+
+/* media queries*/
+
 @media(orientation: portrait){
     h3 span::after {
         content:'\A';
@@ -92,6 +97,11 @@ header h3{
     height: 100vh;
     right: 0%;
     }
+
+
+
+
+
 #arrow{
     width: 36px;
     height: 36px;
