@@ -59,7 +59,7 @@ header h3{
     height:32px;
     border: 1px solid black;
     position: absolute;
-    bottom:7%;
+    bottom:14%;
     left:50%;
     transform: translateX(-50%);
     z-index:2;
@@ -95,7 +95,7 @@ header h3{
 #arrow{
     width: 36px;
     height: 36px;
-    bottom: 5%;
+    bottom: 15%;
     font-size: 2rem;
 }
 header nav{
@@ -109,3 +109,5 @@ header nav{
     50% {transform: translateY(0px)}
     100% {transform: translateY(70px)}
 }
+
+
